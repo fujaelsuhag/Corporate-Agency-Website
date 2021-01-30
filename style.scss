@@ -1,0 +1,416 @@
+
+
+$montserrat: 'Montserrat', sans-serif;
+$nunito: 'Nunito', sans-serif;
+
+// Header section start
+header{
+    background-image: url(../img/contact_bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .navbar{
+        ul{
+            li{
+                padding: 10px 25px;
+                a{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 600;
+                    font-size: 12px;
+                    color: #fff !important;
+                    transition: all 0.3s;
+                    border-bottom: 2px solid transparent;
+                    &:hover{
+                        border-bottom: 2px solid #fbc02d;
+                    }
+                }
+            .active{
+                border-bottom: 2px solid #fbc02d;
+            }
+            }
+        }
+    }
+    .banner_text{
+        h1{
+            font-size: 60px;
+            font-family: $nunito;
+            font-weight: 800;
+            color: #fff;
+        }
+        p{
+            font-family: $nunito;
+            font-size: 14px;
+            font-weight: 600;
+            color: #fff;
+        }
+        a{
+            font-family: "Nunito",sans-serif;
+            font-weight: 800;
+            text-transform: uppercase;
+            color: #fbc02d;
+            text-decoration: none;
+            font-size: 14px;
+            border: 2px solid #fbc02d;
+            padding: 10px 25px;
+            border-radius: 12px;
+            margin-right: 20px;
+            transition: all 0.3s;
+            &:hover,.active{
+                color: #003edd;
+                background-color: #fbc02d;
+            }
+        }
+        .active{
+            color: #003edd;
+            background-color: #fbc02d;
+        }
+    }
+    
+}
+// Header section end
+
+
+// Content section start
+.content_section{
+    background-image: url(../img/home_content_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h2{
+        font-family: $nunito;
+        font-weight: 800;
+        font-size: 36px;
+        color: #1d59bf;
+        margin-bottom: 40px;
+    }
+    h3{
+        font-family: $nunito;
+        color: #545454;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 20px;
+        margin-bottom: 40px;
+    }
+    p{
+        font-family: $montserrat;
+        font-weight: 400;
+        font-size: 15px;
+        color: #545454;
+        line-height: 20px;
+    }
+}
+// Content section end
+
+
+// Contact us section start
+.contact_us_section{
+    background-image: url(../img/home_contact_us_bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    h3{
+        font-family: $nunito;
+        font-weight: 700;
+        color: #fff;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    span{
+        font-family: $nunito;
+        font-weight: 800;
+        color: #fff;
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+    input{
+        font-family: $montserrat;
+        font-weight: 400;
+        color: #3c3c3c;
+        font-size: 13px;
+        line-height: 20px;
+        padding: 10px;
+    }
+    button{
+        font-family: $nunito;
+        font-weight: 700;
+        color: #3c3c3c;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 20px 15px;
+    }
+}
+// Contact us section end
+
+
+// Contact form section start
+.contact_form_section{
+    padding: 80px 0;
+
+    .contact_info{
+        background-color: #1b5ac4;
+        border-radius: 30px;
+        padding: 70px;
+        transition: all 0.3s;
+        &:hover{
+            box-shadow: 0px 21px 20px -13px black;
+            transform: translateY(-3px);
+        }
+        h2{
+            font-family: $nunito;
+            font-weight: 800;
+            font-size: 38px;
+            color: #fff;
+        }
+        p, a{
+            font-family: $montserrat;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #fff;
+            margin-top: 15px;
+        }
+        .media{
+            i{
+                font-size: 20px;
+                height: 55px;
+                width: 55px;
+                border-radius: 50%;
+                color: #1b5ac4;
+                background-color: #fbc02d;
+                text-align: center;
+                padding-top: 17px;
+                margin-top: 10px;
+                &:first-child{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    form{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        .form-group{
+            margin-bottom: 25px;
+            input{
+                color: #000;
+                font-family: $montserrat;
+                font-weight: 400;
+                line-height: 20px;
+                border-radius: 10px;
+                border: 1px solid #1b5ac4;
+                padding: 25px 15px;
+            }
+            textarea{
+                height: 120px;
+                color: #000;
+                font-family: $montserrat;
+                font-weight: 400;
+                line-height: 20px;
+                border-radius: 10px;
+                border: 1px solid #1b5ac4;
+                padding: 15px 12px;
+            }
+        }
+        button{
+            font-weight: 700;
+            font-family: $nunito;
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #003edd;
+            background-color: #fbc02d;
+            border: none;
+            padding: 15px 50px;
+            border-radius: 14px;
+            margin-top: 35px;
+            transition: all 0.3s;
+            &:hover{
+                color: #fbc02d;
+                background-color: #003edd;
+            }
+        }
+    }
+}
+// Contact form section end
+
+
+// Blog section start
+.blog_section{
+    .blog_img{
+        background-color: #d963d8;
+        border-radius: 20px;
+    }
+    .blog_img_two{
+        background-color: #8a8a8a;
+    }
+    .blog_three{
+        background-color: #6376d9;
+    }
+    .blog_date{
+        span{
+            background-color: #fbc02d;
+            color: #fff;
+            font-family: $nunito;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+            padding: 8px 15px;
+            border-radius: 8px;
+        }
+        .line{
+            width: 100%;
+            height: 3px;
+            background-color: #b7b7b7;
+        }
+    }
+    .blog_desc{
+        h2{
+            font-family: $nunito;
+            font-weight: 800;
+            font-size: 24px;
+            color: #1d59bf;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-family: $montserrat;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #545454;
+            line-height: 24px;
+        }
+    }
+}
+// Blog section end
+
+
+// about section start
+.about_section{
+    background-image: url(../img/about_banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    h2{
+        font-family: $nunito;
+        font-weight: 800;
+        font-size: 36px;
+        color: #1d59bf;
+        margin-top: 50px;
+    }
+    p{
+        font-family: $montserrat;
+        font-size: 16px;
+        line-height: 20px;
+        color: #545454;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    h3{
+        font-family: $nunito;
+        font-weight: 600;
+        font-size: 14px;
+        color: #fbc02d;
+        text-transform: uppercase;
+    }
+    span{
+        font-family: $nunito;
+        font-weight: 800;
+        font-size: 36px;
+        color: #04388e;
+    }
+}
+// about section end
+
+// Footer section start
+footer{
+    background-color: #003ca0;
+    .circle_img{
+        height: 100px;
+        width: 100px;
+        position: relative;
+        border-radius: 50%;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        img{
+            background-color: #003ca0;
+            padding: 10px;
+            border-radius: 50%;
+        }
+    }
+    h2{
+        font-weight: 800;
+        font-family: $nunito;
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 25px;
+    }
+    ul{
+        li{
+            a{
+                font-family: $montserrat;
+                font-weight: 400;
+                font-size: 15px;
+                color: #fff;
+                line-height: 28px;
+                text-decoration: none !important;
+                &:hover{
+                    color: yellow;
+                }
+            }
+        }
+    }
+    p{
+        font-family: $montserrat;
+        font-weight: 400;
+        font-size: 15px;
+        color: #fff;
+        line-height: 20px;
+    }
+    .social_icon{
+        i{
+            font-size: 20px;
+            color: #fff;
+            height: 40px;
+            width: 40px;
+            background-color: #4b8fff;
+            padding: 10px;
+            padding-left: 11px;
+            margin-right: 10px;
+            border-radius: 50%;
+            transition: all 0.5s;
+            &:hover{
+                color: #003ca0;
+                background-color: #fbc02d;
+                transform: rotate(360deg);
+            }
+        }
+    }
+
+    .footer_bottom{
+        background-color: #002b71;
+        a{
+            font-family: $montserrat;
+            font-weight: 400;
+            font-size: 13px;
+            color: #fff;
+            line-height: 20px;
+            text-decoration: none !important;
+            margin-right: 20px;
+            &:hover{
+                color: yellow;
+            }
+        }
+        p{
+            font-size: 13px;
+            margin-top: 5px;
+        }
+    }
+}
+// Footer section end
