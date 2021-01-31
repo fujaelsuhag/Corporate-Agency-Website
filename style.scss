@@ -3,6 +3,10 @@
 $montserrat: 'Montserrat', sans-serif;
 $nunito: 'Nunito', sans-serif;
 
+input:focus, button:focus{
+    outline: 0;
+}
+
 // Header section start
 header{
     background-image: url(../img/contact_bg.png);
@@ -21,6 +25,7 @@ header{
                     color: #fff !important;
                     transition: all 0.3s;
                     border-bottom: 2px solid transparent;
+                    outline: 0;
                     &:hover{
                         border-bottom: 2px solid #fbc02d;
                     }
@@ -142,6 +147,202 @@ header{
     }
 }
 // Contact us section end
+
+
+// Service section start
+.service_section{
+    margin-bottom: 80px;
+    img{
+        border-radius: 10px;
+        width: 100%;
+    }
+    .service_buttons{
+        button{
+            text-transform: uppercase;
+            font-family: $montserrat;
+            font-weight: 600;
+            font-size: 14px;
+            color: #d1d1d1;
+            background-color: transparent;
+            border: none;
+            transition: 0.3s;
+            &:hover{
+                color: #1b5ac4;
+            }
+        }
+        .active{
+            color: #1b5ac4;
+        }
+    }
+    .service_one{
+        margin-bottom: 30px;
+    }
+}
+// Service section end
+
+hr{
+    height: 2px;
+    background-color: #d1d1d1;
+}
+
+// Service category section start
+.service_category{
+    margin-top: 80px;
+    i{
+        font-size: 70px;
+        margin-bottom: 30px;
+    }
+    h3{
+        font-family: $montserrat;
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    p{
+        font-family: $montserrat;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 18px;
+        margin-bottom: 25px;
+    }
+    a{
+        font-family: $montserrat;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: #000;
+        border-bottom: 1px solid #000;
+        text-decoration: none;
+        transition: 0.3s;
+        &:hover{
+            color: #003edd;
+            border-color: #003edd;
+        }
+    }
+    .top_row{
+        margin-bottom: 60px;
+    }
+    .bottom_row{
+        margin-bottom: 80px;
+    }
+}
+// Service category section end
+
+
+// Brand section start
+.brand_section{
+    background-color: #9fdeff;
+    .row{
+        padding: 50px 30px;
+    }
+    img{
+        width: 90%;
+        background-color: #fff;
+        padding: 0 40px;
+    }
+}
+// Brand section end
+
+
+// Brand section start
+.story_section{
+    position: relative;
+    padding: 70px 0 80px;
+    h3{
+        font-family: $nunito;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 40px;
+        color: #1d59bf;
+        text-transform: uppercase;
+    }
+    h2{
+        font-family: $nunito;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 40px;
+        color: #1d59bf;
+    }
+    span{
+        font-family: $nunito;
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 40px;
+        color: #727272;
+    }
+    h4{
+        font-family: $nunito;
+        font-weight: 700;
+        font-size: 16px;
+        color: #1b5ac4;
+    }
+    p{
+        font-family: $montserrat;
+        font-weight: 400;
+        font-size: 13px;
+        color: #2d2d2d;
+    }
+    .story_detail{
+        border: 2px solid #d1d1d1;
+        border-radius: 8px;
+        padding: 30px;
+        img{
+            background-color: #1b5ac4;
+        }
+    }
+}
+// Brand section end
+
+ 
+// Testimonial section start
+.testimonial_section{
+    padding-top: 50px;
+    margin-bottom: 80px;
+    .testimoni_title{
+        h2{
+            font-family: $nunito;
+            font-weight: 800;
+            font-size: 36px;
+            color: #04388e;
+        }
+        p{
+            font-family: $nunito;
+            font-weight: 800;
+            font-size: 25px;
+            color: #04388e;
+        }
+    }
+    .single_testimoni{
+        background-color: #ebebeb;
+        padding: 60px 40px;
+        border-radius: 10px;
+        h3{
+            font-family: $montserrat;
+            font-weight: 700;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+        h4{
+            font-family: $montserrat;
+            font-weight: 600;
+            font-size: 13px;
+            color: #006fcb;
+        }
+        p{
+            font-family: $montserrat;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            margin-top: 25px;
+        }
+        .testimoni_img{
+            width: 120px;
+            height: 120px;
+        }
+    }
+}
+// Testimonial section end
 
 
 // Contact form section start
