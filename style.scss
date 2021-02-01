@@ -249,20 +249,101 @@ hr{
 .story_section{
     position: relative;
     padding: 70px 0 80px;
-    h3{
-        font-family: $nunito;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 40px;
-        color: #1d59bf;
-        text-transform: uppercase;
+    .line{
+        position: absolute;
+        width: 5px;
+        height: 70%;
+        background-color: #d1d1d1;
+        left: 50%;
+        top: 218px;
     }
-    h2{
-        font-family: $nunito;
-        font-weight: 800;
-        font-size: 48px;
-        line-height: 40px;
-        color: #1d59bf;
+    .circles{
+        position: relative;
+        .circle_one{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border: 5px solid #d1d1d1;
+            background-color: #fac02e;
+            border-radius: 50%;
+            left: 738px;
+            top: 227px;
+        }
+        .circle_two{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border: 5px solid #d1d1d1;
+            background-color: #fac02e;
+            border-radius: 50%;
+            left: 738px;
+            top: 395px;
+        }
+        .circle_three{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border: 5px solid #d1d1d1;
+            background-color: #fac02e;
+            border-radius: 50%;
+            left: 738px;
+            top: 568px;
+        }
+        .circle_four{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border: 5px solid #d1d1d1;
+            background-color: #fac02e;
+            border-radius: 50%;
+            left: 738px;
+            top: 740px;
+        }
+        // .circle_two{
+        //     position: absolute;
+        //     width: 50px;
+        //     height: 50px;
+        //     border: 5px solid #d1d1d1;
+        //     background-color: #fac02e;
+        //     border-radius: 50%;
+        //     left: 50%;
+        // }
+        // .circle_three{
+        //     position: absolute;
+        //     width: 50px;
+        //     height: 50px;
+        //     border: 5px solid #d1d1d1;
+        //     background-color: #fac02e;
+        //     border-radius: 50%;
+        //     left: 50%;
+        // }
+        // .circle_four{
+        //     position: absolute;
+        //     width: 50px;
+        //     height: 50px;
+        //     border: 5px solid #d1d1d1;
+        //     background-color: #fac02e;
+        //     border-radius: 50%;
+        //     left: 50%;
+        // }
+    }
+    .story_title{
+        margin-bottom: 60px;
+        h3{
+            font-family: $nunito;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 40px;
+            color: #1d59bf;
+            text-transform: uppercase;
+        }
+        h2{
+            font-family: $nunito;
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 40px;
+            color: #1d59bf;
+        }
     }
     span{
         font-family: $nunito;
@@ -271,17 +352,20 @@ hr{
         line-height: 40px;
         color: #727272;
     }
-    h4{
-        font-family: $nunito;
-        font-weight: 700;
-        font-size: 16px;
-        color: #1b5ac4;
-    }
-    p{
-        font-family: $montserrat;
-        font-weight: 400;
-        font-size: 13px;
-        color: #2d2d2d;
+    .story_detail{
+        h4{
+            font-family: $nunito;
+            font-weight: 700;
+            font-size: 16px;
+            color: #1b5ac4;
+            margin: 15px 0;
+        }
+        p{
+            font-family: $montserrat;
+            font-weight: 400;
+            font-size: 13px;
+            color: #2d2d2d;
+        }
     }
     .story_detail{
         border: 2px solid #d1d1d1;
@@ -293,6 +377,32 @@ hr{
     }
 }
 // Brand section end
+
+
+// Content idea section start
+.idea_section{
+    padding: 50px 0 80px;
+    img{
+        width: 100%;
+    }
+    .idea_one{
+        background-color: #d9edfe;
+    }
+    .idea_two{
+        background-color: #959595;
+    }
+    .idea_three{
+        background-color: #fbc02d;
+    }
+    .idea_four{
+        background-color: #658cce;
+        margin: 20px 15px;
+    }
+    .idea_five{
+        background-color: #1b5ac4;
+    }
+}
+// Content idea section end
 
  
 // Testimonial section start
