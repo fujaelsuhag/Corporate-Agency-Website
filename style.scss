@@ -632,8 +632,89 @@ hr{
         }
     }
 }
-
 // Home content section end
+
+
+// Experience section start
+.experience_section{
+    background-color: #9fdeff;
+    padding: 80px 0 180px;
+    h2{
+        font-family: $nunito;
+        font-weight: 800;
+        font-size: 36px;
+        color: #04388e;
+    }
+    span{
+        background-color: #1d59bf;
+        width: 100%;
+        height: 4px;
+        display: block;
+    }
+    p{
+        font-family: $montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #313131;
+    }
+}
+.boxes{
+    transform: translateY(-220px);
+    margin-bottom: -180px;
+    .experinece_card{
+        background-color: #04388e;
+        padding: 60px 80px;
+        border-radius: 20px;
+        h3{
+            font-family: $nunito;
+            font-weight: 800;
+            font-size: 45px;
+            line-height: 48px;
+            color: #fffcf4;
+            span{
+                color: #fbc02d;
+            }
+        }
+        p{
+            font-family: $montserrat;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #fff;
+            margin-top: 40px;
+        }
+    }
+    
+    .experience_btn{
+        background-color: #1d59bf;
+        border-radius: 20px;
+        padding: 40px;
+        margin-top: 20px;
+        button{
+            color: #1c5ac3;
+            background-color: #fac02e;
+            border-radius: 15px;
+            border: none;
+            padding: 12px 40px;
+            text-transform: uppercase;
+            font-family: $nunito;
+            font-weight: 700;
+            font-size: 15px;
+            transition: all 0.3s;
+            &:hover{
+                color: #fbc02d;
+                background-color: #002b71;
+            }
+        }
+    }
+    .experience_img{
+        background-color: #1d59bf;
+        border-radius: 20px;
+        padding: 60px 10px;
+    }
+}
+// Experience section end
 
 
 // Service slider section start
