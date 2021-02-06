@@ -259,48 +259,26 @@ hr{
         background-color: #d1d1d1;
         left: 50%;
         top: 218px;
-    }
-    .circles{
-        position: relative;
-        .circle_one{
+        .circle{
             position: absolute;
             width: 50px;
             height: 50px;
             border: 5px solid #d1d1d1;
             background-color: #fac02e;
             border-radius: 50%;
-            left: 738px;
-            top: 227px;
+            left: -22px;
         }
-        .circle_two{
-            position: absolute;
-            width: 50px;
-            height: 50px;
-            border: 5px solid #d1d1d1;
-            background-color: #fac02e;
-            border-radius: 50%;
-            left: 738px;
-            top: 395px;
+        .one{
+            top: 68px;
         }
-        .circle_three{
-            position: absolute;
-            width: 50px;
-            height: 50px;
-            border: 5px solid #d1d1d1;
-            background-color: #fac02e;
-            border-radius: 50%;
-            left: 738px;
-            top: 568px;
+        .two{
+            top: 255px;
         }
-        .circle_four{
-            position: absolute;
-            width: 50px;
-            height: 50px;
-            border: 5px solid #d1d1d1;
-            background-color: #fac02e;
-            border-radius: 50%;
-            left: 738px;
-            top: 740px;
+        .three{
+            top: 440px;
+        }
+        .four{
+            top: 628px;
         }
     }
     .story_title{
